@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Hello  user ${user.name}</p>
-<p>Hello password ${user.password}</p>
+<p>Hello  ${user.name}</p>
+<p>Hello ${user.password}</p>
 <p>Admin ${user.admin}</p>
 </body>
 </html>

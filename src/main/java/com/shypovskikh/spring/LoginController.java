@@ -21,7 +21,7 @@ public class LoginController {
 	
 	@RequestMapping(value="/check-user", method = RequestMethod.POST)
 	public ModelAndView checkUser(@ModelAttribute("user") User user) {
-		return new ModelAndView("main", "user", new User());
+		return new ModelAndView("main", "user", user);
 	}
 	
 
